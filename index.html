@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0;
+        }
+
+        #user-info-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        input {
+            padding: 10px;
+            margin-right: 10px;
+            
+        }
+
+        button {
+            padding: 10px;
+            background-color: rgb(166, 5, 137);
+            color: #ffffff;
+            border: 1px solid red;
+        }
+
+        p {
+            margin: 5px;
+        }
+        
+    </style>
+    <div id="user-info-container">
+        <input type="number" min="1" max="10" id="inputInf" >
+        <button onclick="userInformation()">Get User Info</button>
+        <div id="userinfa"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
